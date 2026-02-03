@@ -105,3 +105,4 @@ crash_log_*.txt
 **/secrets/
 google-services.json
 GoogleService-Info.plist
+lib/firebase_options.dart
