@@ -1,0 +1,107 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code
+# Uncomment the following line if you want to ignore VS Code settings
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+pubspec.lock
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android
+/android/app/debug
+/android/app/profile
+/android/app/release
+/android/.gradle/
+/android/local.properties
+/android/captures/
+/android/app/build/
+/android/build/
+*.jks
+*.keystore
+
+# iOS/macOS
+/ios/Flutter/Flutter.framework
+/ios/Flutter/Flutter.podspec
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/app.flx
+/ios/Flutter/app.zip
+/ios/Flutter/flutter_assets/
+/ios/ServiceDefinitions.json
+/ios/Pods/
+/ios/.symlinks/
+/macos/Flutter/ephemeral/
+/macos/Pods/
+
+# Windows
+/windows/flutter/ephemeral/
+
+# Linux
+/linux/flutter/ephemeral/
+
+# Web
+/web/favicon.png
+*.js.deps
+*.js.map
+*.dart.js
+
+# Firebase
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
+.firebaserc
+
+# Environment files
+.env
+.env.*
+*.env
+
+# Generated files
+*.g.dart
+*.freezed.dart
+*.mocks.dart
+*.gr.dart
+
+# Test coverage
+coverage/
+.test_coverage.dart
+
+# Crash logs
+crash_log_*.txt
+
+# Secrets
+**/secrets/
+google-services.json
+GoogleService-Info.plist
